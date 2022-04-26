@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/50957650e4b0c28a68f9d5b9/1352333148795-GQOB6WPXP30FXXR793CH/JDI_7.jpg?format=1500w);
+
+
+    /* Center the image */
+    background-repeat: repeat;
+    /* Do not repeat the image */
+
+}
+
+.card-active {
+    background: greenyellow;
+}
+
+.card {
+    background: red;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+form {
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+#input {
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#input:hover {
+
+    background-color: black;
+    color: aliceblue;
+
+}
+
+#btnAdd {
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#btnAdd:active {
+    color: white;
+    background-color: red;
+
+}
+
+.card {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.card-active {
+
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
